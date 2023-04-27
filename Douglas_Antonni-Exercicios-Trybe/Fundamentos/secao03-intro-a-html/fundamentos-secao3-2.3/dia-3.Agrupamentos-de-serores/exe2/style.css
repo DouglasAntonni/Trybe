@@ -1,0 +1,44 @@
+.primaria{
+ background-color: blue;
+}
+.primaria:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.secundaria{
+ background-color: orange;
+}
+.secundaria:hover{
+    
+    border: 3px solid black;
+    cursor: pointer;
+}
+.complementar{
+    height: 200px;
+    background-color: blueviolet;
+}
+.complementar:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.escura{
+ background-color: darkred;
+}
+.escura:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.clara{
+    background-color: lightsalmon;
+}
+.clara:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.impar{
+    font-style: italic;
+}

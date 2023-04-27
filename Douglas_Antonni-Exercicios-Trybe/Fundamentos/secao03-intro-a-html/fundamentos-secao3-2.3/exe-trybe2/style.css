@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+    font-size: 1,1em;
+}
+body, html {
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+h1{
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgb(245, 241, 241);
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.589);
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 7, 0);
+    border-radius: 3px;
+    text-shadow: 1px 1px 1xp black;
+}
+a:hover{
+    background-color: rgb(116, 124, 2);
+}
