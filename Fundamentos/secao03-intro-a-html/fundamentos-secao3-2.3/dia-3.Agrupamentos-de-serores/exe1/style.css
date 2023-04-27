@@ -1,0 +1,9 @@
+h1,p{
+    text-align: center;
+}
+a:hover{
+    background-color: brown;
+}
+a:hover::after{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
