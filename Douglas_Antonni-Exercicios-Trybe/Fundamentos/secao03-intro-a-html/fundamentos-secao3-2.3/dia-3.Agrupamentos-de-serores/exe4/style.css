@@ -1,0 +1,25 @@
+
+.meuNome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.minhafoto{
+    background-color: blue;
+    height: 206px;
+    padding: 7px;
+    float: left;
+}
+.descricao{
+    text-align: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    bottom: 10px;
+    left: 10px;   
+}
+.image-container{
+    height: 300px;
+    position: relative;
+}
+ul li:nth-child(odd){
+    background-color: blueviolet;
+}
