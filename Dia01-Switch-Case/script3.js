@@ -16,7 +16,7 @@ switch(statusQuo){
     case"reprovada":
     console.log("Infelizmente, você reprovou.")
     break;
-    
+
     default:
         console.log('informação incorreta')
 }
