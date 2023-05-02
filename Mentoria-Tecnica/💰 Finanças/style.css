@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header{
+    background-color: rgb(35, 113, 81);
+  }
+  
+  header h1{
+    color: rgb(210, 235, 225);
+    padding: 32px;
+    margin: 0 auto;
+    width:fit-content;
+  }
+  
+  body{
+    background-color: rgb(30, 38, 35);
+  }
+  
+  main{
+    padding: 60px 0px;
+    width: 700px;
+    margin: 0px auto;
+    color: rgb(210, 235, 225);
+  }
+  
+  .registros{
+    margin-top: 64px;
+    height: 50vh;
+    overflow-y:scroll;
+    padding: 7px;
+  }
+  
+  .registro{
+    background-color: rgb(35, 113, 81);
+    padding: 32px;
+    border-radius: 13px;
+    position: relative;
+    margin-bottom: 23px;
+  }
+  
+  .registro .valor, .registro .item{
+    display: block;
+  }
+  
+  .registro button{
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    background-color: transparent;
+    border: 1px solid rgb(210, 235, 225);
+    color: rgb(210, 235, 225);
+    border-radius: 7px;
+    padding: 8px;
+    transition: 0.2s background-color, 0.2s border-color;
+    cursor: pointer;
+  }
+  
+  .registro button:first-of-type{
+    right: 96px;
+  }
+  
+  .registro button:hover{
+    background-color: rgb(30, 38, 35);
+    border-color: rgb(30, 38, 35);
+  }
+  
+  .saida .valor{
+    color: rgb(255, 149, 149);
+  }
+  
+  .entrada .valor{
+    color: rgb(161, 225, 98);
+  }
+  
+  .saida .valor::before{
+    content: '-R$ ';
+  }
+  
+  .entrada .valor::before{
+    content: '+R$ ';
+  }
+  
+  footer{
+    bottom: 0;
+    position: absolute;
+    color: rgb(210, 235, 225);
+    width: 100%;
+    padding: 15px;
+  }
+  
+  footer p{
+    margin: 0 auto;
+    width: fit-content;
+  }
