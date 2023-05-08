@@ -28,4 +28,4 @@ Human.film = 'Lord of The Rings'
 Human.series = 'Game of Thrones'
 Human.music = ['Rock/Metal','alternative Things']
 Human.State = 'Pernambuco'
-console.log(Human.name, 'tenho', Human['age'], 'concluiu o ensino tecnico em Analise e Desenvolvimento de Sistemas, o famoso', Human.Academic[0], ' e é um estudante na Trybe de', Human.Academic[1], 'natural de', Human['State'], 'tenho uma paixão por', Human['hobbie'], 'e', Human.music[0], 'onde seus filme e série favoritaas são', Human['film'], 'e', Human['series'], 'que almeja imensamente uma vage de pelo menos', Human['ocuppation'], 'pra mudar de vida!')
+console.log('Olá, me chamo', Human.name, 'tenho', Human['age'], 'anos,', 'conclui o ensino tecnico em Analise e Desenvolvimento de Sistemas, o famoso', Human.Academic[0], ' e é um estudante na Trybe de', Human.Academic[1], 'natural de', Human['State'], 'tenho uma paixão por', Human['hobbie'], 'e', Human.music[0], 'onde seus filme e série favoritaas são', Human['film'], 'e', Human['series'], 'que almeja imensamente uma vage de pelo menos', Human['ocuppation'], 'pra mudar de vida!')
