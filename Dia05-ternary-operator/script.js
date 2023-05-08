@@ -25,7 +25,7 @@ const checkIfElse = (age) => {
   // ------------------------
   
   // Situação em que usar o operador ternário não faz muito sentido:
-  const checkIfElse = (fruit) => {
+  const checkIfElses = (fruit) => {
     if (fruit === `maçã`) {
       return `Essa fruta é vermelha`;
     } else if (fruit === `banana`) {
@@ -35,7 +35,7 @@ const checkIfElse = (age) => {
     }
   };
   
-  const checkTernary = (fruit === `maçã`) ? `Essa fruta é vermelha` 
+  const checkTernarys = (fruit === `maçã`) ? `Essa fruta é vermelha` 
     : ((fruit === `banana`) ? `Esta fruta é amarela` : `Não sei a cor`);
   
   // Aninhar operadores  ternários, como no exemplo acima, não é uma boa prática,
